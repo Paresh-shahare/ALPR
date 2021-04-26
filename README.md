@@ -120,3 +120,5 @@ environment with GPU support. This includes :
 -   This Application is just for the demonstration purpose of the neural
     network based model for Automatic License Plate Detection and
     Recognition
+    
+***Click here to download the project [ALPR_PROJECT](https://drive.google.com/file/d/1xwWsbDXjLdsX8DkuIkzBfeabldes3Y7x/view?usp=sharing)***
