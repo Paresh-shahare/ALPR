@@ -12,14 +12,13 @@ you can provide input in two formats :
 1.  ***Images*** (*.jpg, .png*)
 2.  ***Videos*** (.mp4, .3gp, .avi)
 
-The view of GUI -\
 
-\> ![HTML5 Icon](/Screenshots/GUI.png)
+The view of GUI
 
-The user can provide input images and videos of cars and bikes. The
-images or videos entered are processed by a neural network model and the
-result is shown in corresponding terminal and GUI. The result consists
-of the characters present in License plate of vehicle.
+![gui](Images/1_GUI.jpg)
+
+
+The user can provide input images and videos of cars and bikes. The images or videos entered are processed by a neural network model and the result is shown in corresponding terminal and GUI. The result consists of the characters present in License plate of vehicle.
 
 Requirements
 ------------
@@ -68,20 +67,23 @@ environment with GPU support. This includes :
 -   Download the compressed .zip file from the repository. And extract
     at any location in your system.
 
--   You will see a folder named **ALPR\_Demo** in the directory.\
-
-    ![HTML5 Icon](/Screenshots/ALPR_Demo_directory.png)
+-   You will see a folder named **ALPR\_Demo** in the directory.
+    ![files](Images/2_files.jpg)
 
 -   Open the ALPR\_Demo folder. Cut and paste **opencv\_3.0** in C
-    drive.\
-     ![HTML5 Icon](/Screenshots/c_directory_opencv.PNG)
+    drive.
+    
+    ![Opencv](Images/3_opencv.jpg)
+    
 -   Search on windows for **Edit the system environment variables**.\
 
     In **System Properties** \>\> **Advanced** \>\> **Environment
     Variables** \>\> **User Variables** \>\> **PATH**\
 
-    ![HTML5 Icon](/Screenshots/environment_variable.PNG) ![HTML5
-    Icon](/Screenshots/double_click_on_path.PNG)
+    ![variable](Images/4_environment_variables.png) 
+    
+    ![add to path](Images/5_add_to_path.png)
+
 
     In Edit Environment Variable \>\>\
 
@@ -94,15 +96,15 @@ environment with GPU support. This includes :
 
     After adding all opencv\_3.0 paths. The PATH window should include
     the above included paths in environment variable
-
-    ![HTML5 Icon](/Screenshots/click_on%20_new_and_then_on_browse.PNG)
+    ![opencv](Images/6_added_opencv_to_path.png)
 
     Click OK and Apply.
 
 -   Setup is completed. Now open the directory ALPR\_Demo and click on
     **ALPR.exe** shortcut to run the application.\
-     The GUI looks like this -\
-     ![HTML5 Icon](/Screenshots/GUI.png)
+     The GUI looks like this -
+     
+    ![appgui](Images/7_app_gui.jpg)
 
 -   Click on **Load Image** tab to load an image to process. The result
     along with the image is displayed.
@@ -112,7 +114,9 @@ environment with GPU support. This includes :
 
 -   Select the image or video you want to process. Wait for 5-6 seconds
     to load the model and the result will be displayed in the GUI.
-
+    
+    ![demo](Images/8_demo.jpg)
+    
 -   This Application is just for the demonstration purpose of the neural
     network based model for Automatic License Plate Detection and
     Recognition
